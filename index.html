@@ -3,23 +3,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Starter</title>
+  <title>Veterinary Clinic</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.min.css">
 </head>
 <body>
 
-  <header class="site-header">
-    <a href="index.html">
-      <img src="https://picsum.photos/30/30" alt="site logo">
-    </a>
-    <nav class="site-nav">
-      <ul class="nav-list">
-        <li class="nav-item">Example</li>
-      </ul>
-    </nav>
-  </header>
+<header class="site-header">
+  <div class="container">
+    <div class="header-wrapper">
+      <address class="site-address">г. Мариуполь, проспект Победы, 48а</address>
+      <div class="tel-box">
+        <a href="tel:+998943154565" class="with-tel-icon tel-link">+(067) 634 -75 - 74</a>
+        <a href="tel:+998943154565" class="tel-link with-round">+(0637) 57 - 01 - 31</a>
+        <a href="tel:+998943154565" class="tel-link with-round">+(098) 266 - 43 - 89</a>
+      </div>
+      <div class="day-time">
+        <p>Пн - Пт 8:00 - 18:00</p>
+        <p>Сб - Вс 8:00 - 14:00</p>
+      </div>
+    </div>
+  </div>
 
+
+  <nav class="site-nav">
+    <a class="site-logo-link" href="index.html"><img src="img/site-logo.svg" alt="site logo" class="site-logo" width="178" height="86"></a>
+    <div class="container">
+      <div class="nav-list">
+        <li class="nav-item"><a class="with-fish-icon nav-item-link" href="#">Главная</a></li>
+        <li class="nav-item"><a class="nav-item-link" href="#">О Клинике</a></li>
+        <li class="nav-item"><a class="nav-item-link" href="#">Наши Услуги</a></li>
+        <li class="nav-item"><a class="nav-item-link" href="#">Полезные Статьи</a></li>
+        <li class="nav-item"><a class="nav-item-link" href="#">FAQ</a></li>
+        <li class="nav-item"><a class="nav-item-link" href="#">Контакты</a></li>
+        <a href="#" class="ask-question">Задать вопрос</a>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+<section class="welcome-page">
+  <div class="container">
+  	<div class="welcome-page-content">
+  		<h2 class="welcome-heading">Мы заботимся о <span class="blue-txt">ваших питомцах!</span></h2>
+  		<p class="welcome-p">Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.</p>
+  		<a href="#" class="go-link welcome-link">Наши услуги</a>
+  	</div>
+  </div>
+</section>
+
+  <blockquote class="little-about-clinic">
+    Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу. Здоровье и благополучие Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную помощь.
+  </blockquote>
+  <p class="txt">Оржоникидзевская Ветеринарная клиника</p>
+
+
+  <section class="our-services">
+    <div class="container">
+      <div class="services-wrapper">
+        <h2 class="services-heading">Наши услуги</h2>
+
+        <div class="slider-box">
+          <div class="container controls">
+
+            <ul class="slider-list">
+
+              <li class="slider-item">
+                <a class="slider-item-link" href="#">
+                  <img class="slider-item-img" src="img/doctor.svg" alt="doctor picture" width="54" height="77">
+                  <p class="slider-item-txt">Первичный осмотр</p>
+                </a>
+              </li>
+
+
+              <li class="slider-item">
+                <a class="slider-item-link" href="#">
+                  <img class="slider-item-img" src="img/girl-flowersvg.svg" alt="doctor picture" width="54" height="77">
+                  <p class="slider-item-txt">Первичный осмотр</p>
+                </a>
+              </li>
+
+              <li class="slider-item">
+                <a class="slider-item-link" href="#">
+                  <img class="slider-item-img" src="img/pet.svg" alt="doctor picture" width="54" height="77">
+                  <p class="slider-item-txt">Первичный осмотр</p>
+                </a>
+              </li>
+
+              <li class="slider-item">
+                <a class="slider-item-link" href="#">
+                  <img class="slider-item-img" src="img/dog-at-blackboard.svg" alt="doctor picture" width="54" height="77">
+                  <p class="slider-item-txt">Хирургическое вмешательство</p>
+                </a>
+              </li>
+
+
+              <li class="slider-item">
+                <a class="slider-item-link" href="#">
+                  <img class="slider-item-img" src="img/micro-scope.svg" alt="doctor picture" width="54" height="77">
+                  <p class="slider-item-txt">Первичный осмотр</p>
+                </a>
+              </li>
+
+              <li class="slider-item">
+                <a class="slider-item-link" href="#">
+                  <img class="slider-item-img" src="img/pet.svg" alt="doctor picture" width="54" height="77">
+                  <p class="slider-item-txt">Первичный осмотр</p>
+                </a>
+              </li>
+
+            </ul>
+            <button class="btn-arrow btn-left"></button>
+            <button class="btn-arrow btn-right"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="subscription-section">
+    <div class="container">
+      <div class="subscription-wrapper">
+        <h2 class="subscription-heading">Будь в курсе событий</h2>
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <input class="subscription-input" type="email" placeholder="Укажите Ваш email адрес" name="user_email" required>
+          <button class="subscription-btn go-link" type="submit">Подписаться</button>
+        </form>
+      </div>
+    </div>
+    <img class="big-dog-img" src="img/big-dog.png" alt="dog pic" width="613" height="481">
+  </section>
 
 <script src="js/main.js"></script>
 </body>
