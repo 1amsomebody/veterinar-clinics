@@ -266,7 +266,7 @@ START STYLING
 }
 
 .ask-question {
-  display: -block;
+  display: inline-block;
   padding: 19px 27px;
   vertical-align: baseline;
   position: relative;
@@ -536,7 +536,7 @@ START STYLING
 }
 
 .subscription-input {
-  width: 335px;
+  width: 375px;
   height: 50px;
   padding: 15px 20px;
   margin-right: 21px;
@@ -573,4 +573,247 @@ START STYLING
 
 .subscription-btn:active {
   opacity: .5;
+}
+
+/* SECTION USEFUL STATS */
+
+.useful-stats-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.useful-stats-heading {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 48px;
+  line-height: 20px;
+  color: #333;
+}
+
+.useful-stats-link {
+  position: relative;
+  width: 305px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #E5E5E5;
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+.useful-stats-link:nth-child(3n) {
+  margin-right: 0;
+}
+
+.useful-stats-link-img {
+  width: 305px;
+  height: 180px;
+  display: inline-block;
+  margin-bottom: 20px;
+  object-fit: cover;
+
+}
+
+
+.useful-stats-link-date {
+  margin-left: auto;
+  margin-right: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+  padding: 0 20px;
+}
+
+.useful-stats-link-heading {
+  margin: 0;
+  margin-right: auto;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.useful-stats-link-txt {
+  padding: 0 20px;
+}
+
+.read-more {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.read-more:hover {
+  color: #FFBD54;
+}
+
+.read-more:active {
+  opacity: .5;
+}
+
+.read-more:before {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  content: "";
+  left: -20px;
+  top: 0;
+  background-image: url(../img/pet.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+/* SECTION CONTACT */
+
+.contact {
+  background-color: #333;
+  color: #fff;
+  background-image: url(../img/map-img.jpg), url(../img/fish-img.png);
+  background-position: left center, right center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain,contain;
+
+}
+
+.contact-wrapper {
+  position: relative;
+  max-width: 375px;
+  margin-top: 112px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-map-img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.contact-heading {
+  padding: 0;
+  margin: 0;
+  margin-top: 62px;
+  margin-bottom: 14px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+}
+
+.contact-txt {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 29px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact_textarea {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 375px;
+  margin-left: -20px;
+  resize: none;
+}
+
+.contact-name {
+  margin-bottom: 14px;
+}
+
+.go-link-orange {
+  background-color: #FFBD54;
+  margin-top: 30px;
+  margin-bottom: 74px;
+}
+
+/* SITE FOOTER */
+
+.site-footer {
+  background-color: #f3f3f3;
+  margin-top: 244px;
+}
+
+.footer-wrapper {
+  display: flex;
+  padding-top: 54px;
+  padding-bottom: 90px;
+}
+
+.site-footer-logo {
+  margin-right: 67px;
+}
+
+.footer-link-list {
+  padding: 0;
+  margin: 0;
+  margin-right: 100px;
+  list-style-type: none;
+}
+
+.footer-item-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  white-space: nowrap;
+  margin-bottom: 14px;
+}
+
+.footer-item-link:hover {
+  text-decoration: underline;
+}
+
+.day-time-list {
+  margin: 0;
+  padding: 0;
+  margin-right: 80px;
+}
+
+.footer-tel-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto 0 auto auto;
+}
+
+.footer-tel-list-item {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-bottom: 14px;
+}
+
+.site-address-footer {
+  width: 150px;
+  white-space: pre-wrap;
+  text-align: center;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-right: 80px;
 }
